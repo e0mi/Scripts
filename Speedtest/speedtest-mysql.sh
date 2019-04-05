@@ -4,11 +4,11 @@
 ' Weiter Wntwicklung des Scripts https://github.com/ZephrFish/RandomScripts/blob/master/speedCronIFTTT.sh
 # Mysql Daten
 speedtestserver=3692
-mysqllogin=speedy
-mysqlpassword=V8Q1m6EjqdlvibkQ
-mysqldb=speedy
-mysqlip=37.187.118.203
-pcip="192.168.4.4" #work computer
+mysqllogin=username
+mysqlpassword=password
+mysqldb=datenbankname
+mysqlip=0.0.0.0
+pcip="127.0.0.1" #work computer
 id=1
 
 # Temporary file holding speedtest-cli output
