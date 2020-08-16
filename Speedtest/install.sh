@@ -7,4 +7,4 @@ my_name=$(basename -- "$0")
 pfad=$(echo "$MYDIR/speedtest-mysql.sh")
 
 
-echo "*/$a * * * * $pfad 2>&1"
+echo "*/$a * * * * $pfad 2>&1" > /etc/crontab
