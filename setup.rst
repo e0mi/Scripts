@@ -1,3 +1,4 @@
+[ en | [de](setup-de.rst) ]
 .. _setup:
 
 Setup
