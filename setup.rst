@@ -1,4 +1,4 @@
-[ en | [de](setup-de.md) |]
+[ en | [de](README-de.md) | [el](README-el.md) ]
 .. _setup:
 
 Setup
