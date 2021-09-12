@@ -44,9 +44,9 @@ stop=`date +"%Y-%m-%d %H:%M:%S"`
 echo "Speedtest ended at : $stop"
 
 # Parse
-from=`str_extract "Testing from "`
-from_ip=`echo $from | sed 's/.*(//g' | sed 's/).*//g'`
-from=`echo $from | sed 's/ (.*//g'`
+  from=`str_extract "Testing from "`
+  from_ip=`echo $from | sed 's/.*(//g' | sed 's/).*//g'`
+  from=`echo $from | sed 's/ (.*//g'`
 
 server=`str_extract "Hosted by "`
 server_ping=`echo $server | sed 's/.*: //g'`

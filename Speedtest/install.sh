@@ -1,4 +1,6 @@
 #!/bin/bash
+apt update && apt install --yes mariadb-client speedtest-cli
+chmod +x speedtest-mysql.sh
 a=30 #In Welchem Abstand soll das SQL Script ausgeführt werden in min
 
 
